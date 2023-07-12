@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  background: #191718;
+  height: 100%;
+  width: 100%;
+}
+
+.menu ul li {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  list-style: none;
+  border-bottom: 1px solid #5c5c5c;
+  padding: 12px;
+}
+
+.menu ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+.menu ul li:hover {
+  background-color: #5C5C5C;
+  
+}
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+}
+
+.content {
+  margin-left: 150px;
+  padding: 0 50px;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 35px 0;
+}
+
+.intro h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.intro p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.intro {
+  background-color: #efefef;
+  padding: 25px 160px;
+}
+
+.new {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.new-item h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.new-item p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.new-item {
+  padding: 0 15px;
+}
+
+.new-item:first-child {
+  padding-left: 0;
+}
+
+.new-item:last-child {
+  padding-right: 0;
+}
+
+.new-item img {
+  height: 80px;
+  width: 80px;
+  margin: 0 15px 5px 0;
+  float: left;
+}
+
+.copyright {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 150px;
+  padding: 15px 50px;
+  border-top: 1px solid #DEDEDE;
+  height: 20px;
+}
+
